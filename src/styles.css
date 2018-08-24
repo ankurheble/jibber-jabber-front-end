@@ -1,0 +1,65 @@
+.user-avatar-img {
+    border : 1px solid darkgreen;
+    border-radius : 50%;
+    margin-right: 10px;
+}
+
+.user-avatar {
+    display : flex;
+    align-items: center;
+    max-width : 20%;
+    font-size: 1.2em;
+    margin : 5px 5px;
+    cursor: pointer;
+}
+
+.user-avatar p {
+    margin-bottom: 0px;
+}
+
+.user-list {
+    max-width: 20%;
+    overflow: auto;
+    height: 80%;
+    position: fixed;
+    top: 20%;
+}
+
+.chat-box {
+    display: block;
+    content: '';
+    min-width: 80%;
+    max-width: 80%;
+    background-color: papayawhip;
+    height: 80%;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+}
+
+.chat-box .card-footer {
+    background-color: darkgray;
+}
+
+.create-message {
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 1em;
+}
+
+.post-message-button {
+    margin-left: 15px;
+    color: limegreen;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.message-box {
+    height: 90%;
+}
+
+.main-window {
+    display: flex;
+}
